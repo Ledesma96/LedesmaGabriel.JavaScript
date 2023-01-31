@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body{
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.banner{
+    height: 430px;
+}
+
+.bg{
+    background-color: rgb(0, 132, 255);
+}
+
+.scrollNone{
+    overflow: hidden;
+}
+
+.alto{
+height: 385px;
+overflow: hidden;
+}
+
+
+.ancho{
+    width: 290%;
+}
+
+.verMas{
+    text-decoration: none;
+}
+
+.link{
+    font-size: 1.2rem;
+}
+
+.tamano{
+    height: auto;
+}
+
+
+.body__paginas{
+    display: grid;
+    grid-template-areas:
+    "head head"
+    "aside main"
+    "footer footer" ;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.head{
+    grid-area: head;
+}
+
+.aside{
+    grid-area: aside;
+    width: 80%;
+}
+
+
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.tarjeta{
+    width: 90%;
+    height: 150px;
+}
+
+.tarjeta__imagen{
+    width: 20%;
+}
+
+.tarjeta__div{
+    width: 80%;
+}
+
+.tarjeta__div__nombre{
+    font-size: 1.5rem;
+}
+
+.tarjeta__div__precio{
+    font-size: 1.3rem;
+    color: blue;
+}
+
+
+.botonera{
+    width: 20%;
+}
+
+.botonera__cantidad{
+    width: 40%;
+
+}
+
+
+.btn_carrito{
+    background-color:rgb(0, 132, 255) ;
+    border: none;
+    margin-right: 20px;
+}
+
+.notificaciones{
+    margin-top: 20px;
+}
+
+
+.tarjeta__imagen__carrito{
+    width: 10% ;
+}
+
+.tarjeta__carrito{
+    width: 90%;
+    height: 80px;
+}
+
+.anchoFooter{
+    width: 33%;
+}
+
+.width{
+    width: 60%;
+}
+
+.tarjetaa{
+    height: 200px;
+    width: 90%;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.39) , rgba(138, 135, 135, 0.281));
+}
+
+.sub{
+    text-decoration:underline;
+}
+
+.popupClass{
+    background-image: url(../imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
